@@ -1,0 +1,26 @@
+{
+  "name": "cloudinary-image-upload",
+  "version": "1.0.0",
+  "description": "Image upload with Cloudinary. It's a beautiful thing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,css,html server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmsChrisPena/cloudinary-image-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmsChrisPena/cloudinary-image-upload/issues"
+  },
+  "homepage": "https://github.com/DmsChrisPena/cloudinary-image-upload#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mustache-express": "^1.2.4",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
