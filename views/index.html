@@ -8,9 +8,11 @@
   <body>
     <div class="card">
       <img src="http://fillmurray.com/g/300/300" id="img-preview" />
-      <input type="file" id="file-upload" />
+      <label class="file-upload-container" for="file-upload">
+        <input id="file-upload" type="file" style="display:none;">
+        Select an Image
+      </label>
     </div>
-
     <!-- Scripts -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/public/scripts/app.js"></script>
